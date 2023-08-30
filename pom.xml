@@ -8,7 +8,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.10.0</version>
+			<version>4.11.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -34,7 +34,9 @@
 					<configuration>
 						<!-- put your configurations here -->
 						<suiteXmlFiles>
-							<suiteXmlFile></suiteXmlFile>
+							<suiteXmlFile>
+LoginPage.xml
+</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

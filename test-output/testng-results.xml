@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[opening chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Entering url]]>
+    </line>
+    <line>
+      <![CDATA[clicking on Sign In button]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signIn with password]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signIn]]>
+    </line>
+    <line>
+      <![CDATA[getting the result of is my account display]]>
+    </line>
+    <line>
+      <![CDATA[getting the page title]]>
+    </line>
+    <line>
+      <![CDATA[clicking on signOut]]>
+    </line>
+    <line>
+      <![CDATA[quit the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-30T20:25:48 IST" name="Default suite" finished-at="2023-08-30T20:26:16 IST" duration-ms="28482">
+    <groups>
+    </groups>
+    <test started-at="2023-08-30T20:25:48 IST" name="Default test" finished-at="2023-08-30T20:26:16 IST" duration-ms="28482">
+      <class name="com.policybazar.qa.test.LoginPageTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.policybazar.qa.test.LoginPageTest@53aac487]" started-at="2023-08-30T20:25:48 IST" name="openBrowser" finished-at="2023-08-30T20:26:03 IST" duration-ms="14943" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening chrome browser]]>
+            </line>
+            <line>
+              <![CDATA[Entering url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:com.policybazar.qa.test.LoginPageTest@53aac487]" started-at="2023-08-30T20:26:03 IST" name="signIn" finished-at="2023-08-30T20:26:09 IST" duration-ms="6458" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on Sign In button]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[clicking on signIn with password]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[clicking on signIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="verifyMyAccountIsDisplayed()[pri:0, instance:com.policybazar.qa.test.LoginPageTest@53aac487]" started-at="2023-08-30T20:26:09 IST" name="verifyMyAccountIsDisplayed" description="This is the test of Verify My Accountis display" finished-at="2023-08-30T20:26:10 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[getting the result of is my account display]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountIsDisplayed -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.policybazar.qa.test.LoginPageTest@53aac487]" started-at="2023-08-30T20:26:10 IST" name="verifyPageTitle" description="This is test of verfiy PageTittle" finished-at="2023-08-30T20:26:10 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[getting the page title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="signOut()[pri:0, instance:com.policybazar.qa.test.LoginPageTest@53aac487]" started-at="2023-08-30T20:26:10 IST" name="signOut" finished-at="2023-08-30T20:26:15 IST" duration-ms="5747" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on signOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.policybazar.qa.test.LoginPageTest@53aac487]" started-at="2023-08-30T20:26:15 IST" name="closeBrowser" finished-at="2023-08-30T20:26:16 IST" duration-ms="981" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[quit the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.policybazar.qa.test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

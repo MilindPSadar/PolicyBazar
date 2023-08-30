@@ -26,12 +26,15 @@ public class BaseClass {
 		Reporter.log("Entering url", true);
 		driver.get(Utility.readConfigfile("url"));
 		// apply wait here
-
+		Utility.impliciteWait(2);
 	}
 
 	public static void closeBrowser() {
+		Reporter.log("quit the browser", true);
+		Utility.impliciteWait(2);
 		driver.quit();
 		// apply wait here
+		
 	}
 
 }
